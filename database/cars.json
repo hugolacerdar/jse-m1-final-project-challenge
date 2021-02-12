@@ -1,0 +1,23 @@
+[
+    {
+        "id": "c159316b-a557-4130-801c-9cd51d0f6679",
+        "name": "A4",
+        "releaseYear": 2021,
+        "avaiable": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "b92d4cfb-ef4d-46bc-b54c-d58643ee5fae",
+        "name": "Focus",
+        "releaseYear": 2020,
+        "avaiable": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "419d7ec5-a8a6-4dc0-8dfd-73a1f27e295f",
+        "name": "Focus",
+        "releaseYear": 2020,
+        "avaiable": true,
+        "gasAvailable": true
+    }
+]
