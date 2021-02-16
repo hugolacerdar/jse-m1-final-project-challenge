@@ -1,6 +1,6 @@
 const BaseRepository =  require('./../repository/base/baseRepository');
 const Tax = require('./../entities/tax');
-const Transaction = require('../entities/transaction');
+const Transaction = require('./../entities/transaction');
 
 class CarService {
     constructor({ cars }) {

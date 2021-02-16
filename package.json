@@ -4,8 +4,10 @@
   "description": "## Use Case 01",
   "main": "index.js",
   "scripts": {
+    "start": "node src/api.js",
     "test": "npx mocha -w --parallel **/**/*.test.js",
-    "test:cov": "npx nyc npx mocha --exit **/**/*.test.js",
+    "test:dev": "NODE_ENV=test npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --exit --parallel **/**/*.test.js",
     "seed": "node ./seed"
   },
   "keywords": [],
@@ -16,6 +18,7 @@
     "faker": "^5.3.1",
     "mocha": "^8.2.1",
     "nyc": "^15.1.0",
-    "sinon": "^9.2.4"
+    "sinon": "^9.2.4",
+    "supertest": "^6.1.3"
   }
 }
